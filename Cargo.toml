@@ -7,9 +7,9 @@ members = [
 resolver = "2"
 
 [workspace.dependencies]
-sp1-sdk = "2.0.0"
-sp1-zkvm = "2.0.0"
-sp1-helper = "2.0.0"
+sp1-sdk = "3.0.0-rc3"
+sp1-zkvm = "3.0.0-rc3"
+sp1-helper = "3.0.0-rc3"
 serde_json = { version = "1.0", default-features = false, features = ["alloc"] }
 serde = { version = "1.0", default-features = false, features = ["derive"] }
 clap = { version = "4.0", features = ["derive", "env"] }

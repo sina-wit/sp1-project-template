@@ -5,3 +5,7 @@ edition = "2021"
 
 [dependencies]
 serde = { workspace = true }
+
+[[bench]]
+name = "b1"
+harness = false
